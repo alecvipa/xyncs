@@ -1,0 +1,39 @@
+.logoBrightInicio{
+    margin-right: 2%;
+}
+.navbar{
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+}
+.font1{
+    font-family: 'Pontano Sans', sans-serif;
+}
+.bannerTemporada{
+    height: 30rem;
+    background-image: url("/assets/images/bonusLogo2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: 25% 85%;
+
+}
+.firstCallToActionTitle{
+    font-size: 20pt;
+    margin-left: 15%;
+    padding-top: 5%;
+    color: wheat;
+    margin-bottom: 7%;
+}
+.poster{
+    height: 15%;
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.616);
+    position: relative;
+    top: 5%;
+}
+.firstFormMain{
+    margin-left: 5%;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xyncs: Diseño Web</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css" type="text/css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pontano+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a077a0470e.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+</head>
+
+<body class="font1">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <img src="assets/images/logoTransparentBright.png" alt="logoDark" style="width: 7rem;" class="logoBrightInicio">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/inicio">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/servicios">Servicios <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/contacto">Contacto <span class="sr-only">(current)</span></a>
+                </li>
+
+            </ul>
+
+        </div>
+    </nav>
+    <div class="bannerTemporada">
+        <div class="poster">
+            <div class="titles">
+                <h3 class="firstCallToActionTitle">Diseñamos tu sitio web.</h3>
+                <form class="firstFormMain">
+                    <div class="form-group">
+                        <label for="exampleInputPassword1">Nombre y apellidos</label>
+                        <input type="text" class="form-control" id="name" placeholder="Juan Pérez">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Número telefónico</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Escribe tu número a 10 dígitos">
+                        <small id="emailHelp" class="form-text text-muted">Nunca compartiremos tus datos con nadie. </small>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Acepto política de privacidad</label>
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-dark">Quiero que me contacten</button>
+                </form>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="bodyPrincipal">
+        {{{body}}}
+    </div>
+
+    <script src="/assets/js/script.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
