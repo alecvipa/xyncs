@@ -30,6 +30,12 @@ app.set("view engine", "handlebars");
 app.get('/', function (req, res) {
     res.render('inicio')
 });
+app.get('/privacidad', function (req, res) {
+    res.render('privacidad')
+});
+app.get('/servicios', function (req, res) {
+    res.render('servicios')
+});
 
 
 // Start our server so that it can begin listening to client requests.
