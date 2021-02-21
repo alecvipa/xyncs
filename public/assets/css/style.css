@@ -181,6 +181,9 @@
     .copyrightTitle{
         font-size: 10pt;
     }
+    .poster{
+        width: 60%;
+    }
 
 
 }
@@ -208,6 +211,24 @@
     .serviciosDisenoWeb, .serviciosMarketing{
         height: 51rem;
     }
+    .poster{
+        width: 91%;
+        left: 5%;
+        top: 27%;
+    }
+    .bannerTemporada{
+        height: 28rem;
+    }
+    .mktgDigitalDiv{
+        width: 65%;
+        top: 11%;
+        margin-left: 19.5%;
+    }
+    .bannerSeparadorInicio{
+        height: 27rem;
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
     
 
 
@@ -231,7 +252,22 @@
         font-size: 1.5rem;
 
     }
-    
+    .poster{
+        width: 91%;
+        left: 5%;
+        top: 27%;
+    }
+    .mktgDigitalDiv{
+        width: 61%;
+        top: 11%;
+        margin-left: 19.5%;
+
+    }
+    .bannerSeparadorInicio{
+        height: 30rem;
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
 
 }
 
@@ -256,6 +292,24 @@
     .serviciosDisenoWeb, .serviciosMarketing{
         height: 51rem;
     }
+    .poster{
+        width: 91%;
+        left: 5%;
+        top: 27%;
+    }
+    .bannerTemporada{
+        height: 28rem;
+    }
+    .mktgDigitalDiv{
+        width: 65%;
+        top: 11%;
+        margin-left: 19.5%;
+    }
+    .bannerSeparadorInicio{
+        height: 27rem;
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
     
 
 }
@@ -273,6 +327,27 @@
     }
     .serviciosMarketing{
         height: 54rem;
+    }
+    .poster{
+        width: 91%;
+        left: 5%;
+        top: 27%;
+    }
+    .bannerTemporada{
+        height: 28rem;
+    }
+    .mktgDigitalDiv{
+        width: 77%;
+        top: 11%;
+        margin-left: 12.5%;
+    }
+    .bannerSeparadorInicio{
+        height: 27rem;
+        margin-top: 11%;
+        margin-bottom: 11%;
+    }
+    .copyrightTitle{
+        font-size: 13pt !important;
     }
 
 }
