@@ -36,6 +36,9 @@ app.get('/privacidad', function (req, res) {
 app.get('/servicios', function (req, res) {
     res.render('servicios')
 });
+app.get('/contacto', function (req, res) {
+    res.render('contacto')
+});
 
 
 // Start our server so that it can begin listening to client requests.

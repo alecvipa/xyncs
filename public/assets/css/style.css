@@ -69,13 +69,14 @@
 .poster{
     background-color: rgba(0, 0, 0, 0.555);
     width: 30%;
-    height: 35%;
+    height: 40%;
     text-align: center;
     padding-top: 1.5%;
     position: relative;
     top: 10%;
     left: 3%;
     border-radius: 8pt;   
+    padding: 1%;
 }
 .footer{
     height: 10rem;
@@ -112,3 +113,51 @@
     background-attachment: fixed;
     background-position: center;
 }
+.blackScreenServicios{
+    background-color: rgba(0, 0, 0, 0.37);
+}
+.blackScreenServicios2{
+    background-color: rgba(0, 0, 0, 0.589);
+    height: 100%;
+}
+.serviciosMarketing{
+    height: 35rem;
+    background-image: url("/assets/images/marketingServices.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0s linear;
+    background-position: 25% 85%;
+
+}
+.contactoDiv {
+    /* The image used */
+    background-image: url("/assets/images/lilaComputer.jpg");
+    
+    /* Add the blur effect */
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    
+    /* Full height */
+    height: 100%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+    height: 40rem;
+}
+.formContactDiv {
+    background-color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+  }
