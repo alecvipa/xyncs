@@ -115,6 +115,7 @@
 }
 .blackScreenServicios{
     background-color: rgba(0, 0, 0, 0.37);
+    height: 100%;
 }
 .blackScreenServicios2{
     background-color: rgba(0, 0, 0, 0.589);
@@ -146,8 +147,6 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
-
     height: 40rem;
 }
 .formContactDiv {
@@ -170,6 +169,18 @@
     .contactoDiv {
         height: 35rem !important;
     }
+    .serviciosDisenoWeb{
+        height: 40rem;
+    }
+    .serviciosMarketing{
+        height: 45rem;
+    }
+    .footer{
+        height: 27rem;
+    }
+    .copyrightTitle{
+        font-size: 10pt;
+    }
 
 
 }
@@ -188,6 +199,16 @@
     .copyrightTitle{
         font-size: 11pt;
     }
+    .fontAweIcon2, .fontMediaQuerie1{
+        font-size: 1.5rem;
+    }
+    .fontMediaQuerie2{
+        font-size: 0.8rem;
+    }
+    .serviciosDisenoWeb, .serviciosMarketing{
+        height: 51rem;
+    }
+    
 
 
 }
@@ -196,6 +217,19 @@
     .formContactDiv {
         margin-top: -100%;
         width: 80%;
+    }
+    .fontMediaQuerie2{
+        font-size: 0.8rem;
+    }
+    .serviciosDisenoWeb, .serviciosMarketing{
+        height: 51rem;
+    }
+    .fontMediaQuerie1{
+        font-size: 1rem;
+    }
+    .fontAweIcon2{
+        font-size: 1.5rem;
+
     }
     
 
@@ -209,6 +243,19 @@
         margin-top: -100%;
         width: 80%;
     }
+    .fontMediaQuerie1{
+        font-size: 1rem;
+    }
+    .fontAweIcon2{
+        font-size: 1.3rem;
+
+    }
+    .fontMediaQuerie2{
+        font-size: 0.8rem;
+    }
+    .serviciosDisenoWeb, .serviciosMarketing{
+        height: 51rem;
+    }
     
 
 }
@@ -220,7 +267,13 @@
         margin-top: -122%;
         width: 80%;
     }
-    
+    .titleDisenoWebDiv{
+        font-size: 2rem;
+        margin-top: 10%;
+    }
+    .serviciosMarketing{
+        height: 54rem;
+    }
 
 }
 
