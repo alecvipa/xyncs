@@ -39,6 +39,9 @@ app.get('/servicios', function (req, res) {
 app.get('/contacto', function (req, res) {
     res.render('contacto')
 });
+app.get('/proyectos', function (req, res) {
+    res.render('proyectos')
+});
 
 
 // Start our server so that it can begin listening to client requests.
