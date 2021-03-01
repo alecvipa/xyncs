@@ -25,20 +25,16 @@ app.engine("handlebars", exphbs({ defaultLayout: "main" }));
 app.set("view engine", "handlebars");
 
 // Redirect to https://xyncs.com
-const fs = require('fs');
 const targetBaseUrl = 'https://www.xyncs.com/inicio';
 
 
 
 // Routes
 app.get('/', function (req, res) {
-    fs.readFile('items.json', function (error, data) {
-        if (error) {
-            res.status(500).end()
-        } else {
-            res.redirect(targetBaseUrl);
-        }
-    })
+    
+    res.redirect(targetBaseUrl);
+
+
 });
 app.get('/inicio', function (req, res) {
     res.render('inicio')
