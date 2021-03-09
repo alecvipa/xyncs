@@ -212,14 +212,14 @@
 
 @media (min-width: 401px) and (max-width: 767px) {
     .formContactDiv {
-        margin-top: -81%;
+        margin-top: -102%;
         width: 80%;
     }
     .formInputs{
         margin-top: 6%;
     }
     .contactoDiv {
-        height: 42rem;
+        height: 53rem;
     }
     .copyrightTitle{
         font-size: 11pt;
@@ -307,7 +307,7 @@
         height: 42rem;
     }
     .formContactDiv {
-        margin-top: -100%;
+        margin-top: -124%;
         width: 80%;
     }
     .fontMediaQuerie1{
@@ -350,10 +350,10 @@
 }
 @media (max-width: 320px) {
     .contactoDiv {
-        height: 49rem !important;
+        height: 61rem !important;
     }
     .formContactDiv {
-        margin-top: -122%;
+        margin-top: -152%;
         width: 80%;
     }
     .titleDisenoWebDiv{
