@@ -31,9 +31,7 @@ const targetBaseUrl = 'https://www.xyncs.com/inicio';
 
 // Routes
 app.get('/', function (req, res) {
-    
     res.redirect(targetBaseUrl);
-
 
 });
 app.get('/inicio', function (req, res) {
@@ -50,6 +48,9 @@ app.get('/contacto', function (req, res) {
 });
 app.get('/proyectos', function (req, res) {
     res.render('proyectos')
+});
+app.get('/influencermarketing', function (req, res) {
+    res.render('influencermarketing')
 });
 
 // Nodemailer route
