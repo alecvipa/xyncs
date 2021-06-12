@@ -48,6 +48,6 @@ $(".goToContact").on('click', function () {
 
 //     // Proving FB
 // });
-$(".bannerDiving, .bannerDivingInsta").click(function(){
+$(".empezarYa").click(function(){
     window.open("https://www.xyncs.com/contacto");
 });
