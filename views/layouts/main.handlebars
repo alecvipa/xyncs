@@ -30,7 +30,7 @@
             obj.open("post", form.action, true);
             obj.setRequestHeader("Content-Type", "application/json"); // NOTICE: "application/json"
             obj.send(JSON.stringify({ name: form.name.value, country: form.country.value, email: form.email.value, number: form.tel.value, checkbox: form.checkBox.value }));
-            alert("¡En breve te contactaremos!");
+            alert("¡Pronto te contactaremos!");
             $(".formInput").val(" ");
             return false;
         }
