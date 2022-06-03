@@ -5,16 +5,18 @@
     padding-top: 1.5%;
     padding-bottom: 1.5%;
     padding-left: 1.5%;
+    background-color: black;
 }
 .font1{
     font-family: 'Pontano Sans', sans-serif;
 }
 .bannerTemporada{
     height: 30rem;
-    background-image: url("/assets/images/bonus3.png");
+    background-image: url("/assets/images/buevobonus.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    
 
 }
 .webDesignDiv{
@@ -171,6 +173,15 @@
 .avisoPrivacidadDiv{
     margin-top: 5%;
     margin-bottom: 5%;
+}
+@media(max-width:991px){
+    .bannerTemporada{
+        background-image: url("/assets/images/bonusRes.jpg");
+        background-position: 25% 43%;
+        
+    
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 1000px) {
