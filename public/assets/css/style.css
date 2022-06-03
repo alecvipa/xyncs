@@ -11,12 +11,20 @@
     font-family: 'Pontano Sans', sans-serif;
 }
 .bannerTemporada{
-    height: 30rem;
+    height: 37rem;
     background-image: url("/assets/images/buevobonus.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     
+
+}
+.includeServices{
+    height: 20rem;
+    background-image: url("/assets/images/servicesInclude.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 
 }
 .webDesignDiv{
@@ -26,32 +34,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
-.bannerSeparadorInicio{
-    height: 35rem;
-    background-image: url("/assets/images/lilaComputer.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
-}
-.mktgDigitalDiv{
-    height: 40%;
-    width: 40%;
-    background-color: rgba(0, 0, 0, 0.651);
-    margin-left: 28.5%;
-    position: relative;
-    top: 20%;
-    padding-top: 1%;
-    border-radius: 8pt;
-}
-.itemDivMarketing{
-    /* background-color: rgba(0, 0, 0, 0.589); */
-    /* color: rgb(4, 78, 199); */
-    font-size: 1.5rem;
-}
-.itemDivMarketing:hover{
-    color: gray;
-}
+
+
+
 .pointer {
     cursor: pointer;
 }
@@ -75,6 +61,7 @@
 .footer{
     height: 10rem;
     color: white;
+    background-color: black;
 }
 .copyrightTitle{
     font-size: 13pt;
@@ -86,6 +73,7 @@
 }
 .incluyenDiv{
     margin-top: 5%;
+    margin-bottom: 5%;
 }
 .incluyenTitle{
     margin-bottom: 3% !important;
@@ -181,6 +169,11 @@
         
     
     }
+    .includeServices{
+        height: 16rem;
+
+    
+    }
 
 }
 
@@ -249,16 +242,6 @@
     .bannerTemporada{
         height: 28rem;
     }
-    .mktgDigitalDiv{
-        width: 65%;
-        top: 11%;
-        margin-left: 19.5%;
-    }
-    .bannerSeparadorInicio{
-        height: 27rem;
-        margin-top: 11%;
-        margin-bottom: 11%;
-    }
 
     .cardProyectos{
         margin-left: 13%;
@@ -295,17 +278,8 @@
         left: 5%;
         top: 27%;
     }
-    .mktgDigitalDiv{
-        width: 61%;
-        top: 11%;
-        margin-left: 19.5%;
+  
 
-    }
-    .bannerSeparadorInicio{
-        height: 30rem;
-        margin-top: 11%;
-        margin-bottom: 11%;
-    }
     .cardProyectos{
         margin-left: 8.5%;
         margin-bottom: 5%;
@@ -345,16 +319,8 @@
     .bannerTemporada{
         height: 28rem;
     }
-    .mktgDigitalDiv{
-        width: 65%;
-        top: 11%;
-        margin-left: 19.5%;
-    }
-    .bannerSeparadorInicio{
-        height: 27rem;
-        margin-top: 11%;
-        margin-bottom: 11%;
-    }
+    
+
     .cardProyectos{
         margin-left: 7%;
         margin-bottom: 5%;
@@ -388,16 +354,8 @@
     .bannerTemporada{
         height: 28rem;
     }
-    .mktgDigitalDiv{
-        width: 77%;
-        top: 11%;
-        margin-left: 12.5%;
-    }
-    .bannerSeparadorInicio{
-        height: 27rem;
-        margin-top: 11%;
-        margin-bottom: 11%;
-    }
+    
+
     .copyrightTitle{
         font-size: 13pt !important;
     }
