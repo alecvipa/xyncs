@@ -12,7 +12,7 @@
 }
 .bannerTemporada{
     height: 42rem;
-    background-image: url("/assets/images/buevobonus.jpg");
+    background-image: url("/assets/images/buevoBonus.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
